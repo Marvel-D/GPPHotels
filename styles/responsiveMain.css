@@ -1,0 +1,178 @@
+@media screen and (max-width: 990px) {
+  .H-middle {
+    padding: 0 20px;
+  }
+  .H-end {
+    margin-right: 0px;
+  }
+  .item-info {
+    font-size: 2vw;
+  }
+  details {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .fa-bars {
+    display: block;
+    color: white;
+    font-size: 5vw;
+  }
+  #head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+  }
+  header {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #H-start {
+    width: 40%;
+  }
+  #H-start h2 {
+    white-space: nowrap;
+    font-size: 0.9em;
+  }
+  .H-middle,
+  .H-end {
+    display: none;
+  }
+  .hide {
+    display: flex;
+  }
+  .small-logo,
+  .hide h2 {
+    display: none;
+  }
+  .R-hidden {
+    transform: translate(90%, 255px);
+    display: flex;
+    border-radius: 30px 0px;
+    flex-direction: column;
+    background-color: #2b2b2b;
+    position: absolute;
+  }
+  .R-hidden li {
+    padding: 15px 0;
+  }
+  .click-hide {
+    visibility: hidden;
+  }
+  #head-bottom {
+    padding: 100px 0;
+  }
+  .slider-div-white {
+    margin: 10px 0;
+  }
+  #head-bottom p {
+    color: white;
+    width: 90%;
+    font-size: .6em;
+    line-height: 17px;
+  }
+  #SECT-1 {
+    grid-template-columns: 100%;
+  }
+  .img-box-1 {
+    height: 200px;
+  }
+  #mission {
+    grid-template-columns: 100%;
+  }
+  .img-box-2{
+    display: none;
+  }
+  #core-values {
+    grid-template-columns: 100%;
+  }
+  .img-box-3 {
+    height: 200px;
+  }
+  #img-gallery {
+    grid-template-columns: repeat(2, auto);
+    row-gap: 20px;
+  }
+  .gallery-item {
+    width: 45vw;
+  }
+  .item-info {
+    top: 60%;
+    font-size: 4vw;
+    line-height: 25px;
+  }
+  footer {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #footer-logo {
+    width: 30vw;
+    height: 110px;
+  }
+  #footer-2 {
+    margin-top: 20px;
+    justify-content: space-around;
+  }
+  #footer-2 div {
+    font-size: 2vw;
+  }
+  #footer-contact {
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 560px) {
+  #main-container {
+    margin: 20px;
+  }
+  #H-start h2 {
+    font-size: 0.6em;
+  }
+  #about-us {
+    padding: 5px;
+  }
+  #SECT-2 {
+    text-align: center;
+  }
+  #O-M-V {
+    display: grid;
+    padding: 0px;
+    grid-template-columns: 100%;
+    justify-content: space-between;
+    text-align: center;
+  }
+  #O-M-V li {
+    list-style: none;
+  }
+  #services {
+    margin: 100px 0;
+  }
+  .C-item {
+    width: 100%;
+  }
+
+  #footer-logo {
+    width: 70vw;
+  }
+  footer {
+    justify-content: center;
+    align-items: center;
+  }
+  #footer-1 h3 {
+    font-size: 1.2em;
+  }
+  #footer-2 {
+    margin-top: 20px;
+    flex-direction: column;
+  }
+  #footer-2 div {
+    font-size: 4vw;
+  }
+  details {
+    display: none;
+  }
+}
