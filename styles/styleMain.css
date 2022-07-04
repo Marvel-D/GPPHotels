@@ -21,10 +21,10 @@ main {
 a:link,
 li {
   text-decoration: none;
-  color: white;
+  color: rgb(0, 99, 12);
   list-style: none;
 }
-h1{
+h1 {
   font-size: 30px;
 }
 p {
@@ -36,14 +36,15 @@ p {
   color: white;
   height: fit-content;
   width: 100%;
-  background-image: url(../images/slider-1-1.jpg);
+  background-image: url(../images/1_background/Bar\ dome.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 20px;
   animation: fadeIn 1s;
+  margin-bottom: 100px;
 }
 header {
+  background: linear-gradient(white 40%, transparent);
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -59,8 +60,8 @@ header {
   justify-content: space-between;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: #2b2b2b;
-  transform: translateY(-147px);
+  background: linear-gradient(white 55%, transparent);
+  transform: translateY(-127px);
   align-items: center;
   z-index: 4;
 }
@@ -76,7 +77,7 @@ header {
 }
 #H-start h2 {
   font-size: 15px;
-  color: greenyellow;
+  color: rgb(0, 99, 12);
 }
 .H-middle {
   width: 50%;
@@ -88,7 +89,7 @@ header {
   position: absolute;
   display: flex;
   flex-direction: column;
-  background-color: #474545;
+  background-color: rgb(0, 99, 12);
   visibility: hidden;
 }
 .H-menu-drop:hover .hoverMenu {
@@ -99,6 +100,9 @@ header {
   font-size: 14px;
   padding: 10px 10px;
   border-bottom: 0.2px solid rgb(143, 143, 143);
+}
+.hoverMenu a:hover{
+  background-color: rgb(83, 125, 66);
 }
 .H-end {
   width: fit-content;
@@ -128,10 +132,11 @@ header {
   text-transform: uppercase;
 }
 .slider-div-white {
-  margin: 30px 0;
+  margin: 10px 0;
 }
 #head-bottom p {
   font-size: 1.4vw;
+  color: white;
   width: 87%;
 }
 #main-container {
@@ -141,24 +146,26 @@ header {
 #SECT-1,
 #mission {
   display: grid;
-  grid-template-columns: 45% 45%;
+  grid-template-columns: 50% 50%;
   justify-content: space-between;
   align-items: center;
 }
 .img-box-1 {
-  height: 700px;
+  height: 650px;
   width: 100%;
-  background-image: url(../images/woman-in-a-trance.jpg);
+  background-image: url(../images/3_holders/PARKING\ LOT.JPG);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 #about-us {
+  height: 650px;
   background-color: #e0dfde;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  justify-content: center;
   padding: 40px;
 }
 #about-us h1 {
@@ -201,9 +208,6 @@ header {
   flex-direction: column;
   position: relative;
 }
-#hotel-front {
-  filter: brightness(100%);
-}
 .gallery-item {
   width: 20vw;
   height: 250px;
@@ -212,7 +216,7 @@ header {
 }
 .gallery-item:hover {
   filter: brightness(100%);
-  transition: all 0.3s linear;
+  transition: filter 0.3s linear;
 }
 .item-info {
   display: block;
@@ -283,7 +287,7 @@ details p {
 .img-box-2 {
   height: 700px;
   width: 100%;
-  background-image: url(../images/vision-1.jpg);
+  background-image: url(../images/3_holders/GPPH\ staff.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -312,7 +316,7 @@ details p {
 .img-box-3 {
   height: 700px;
   width: 100%;
-  background-image: url(../images/mission-1.jpg);
+  background-image: url(../images/3_holders/GPPH\ STAFF-S.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

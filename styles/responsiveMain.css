@@ -16,7 +16,7 @@
 @media screen and (max-width: 769px) {
   .fa-bars {
     display: block;
-    color: white;
+    color: black;
     font-size: 5vw;
   }
   #head {
@@ -26,7 +26,7 @@
     height: 90vh;
   }
   header {
-    width: 90%;
+    padding: 0 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -54,7 +54,7 @@
     display: flex;
     border-radius: 30px 0px;
     flex-direction: column;
-    background-color: #2b2b2b;
+    background-color: rgba(255, 255, 255, 0.594);
     position: absolute;
   }
   .R-hidden li {
@@ -63,6 +63,9 @@
   .click-hide {
     visibility: hidden;
   }
+.hoverMenu {
+  display: none;
+}
   #head-bottom {
     padding: 100px 0;
   }
@@ -72,7 +75,7 @@
   #head-bottom p {
     color: white;
     width: 90%;
-    font-size: .6em;
+    font-size: 0.6em;
     line-height: 17px;
   }
   #SECT-1 {
@@ -84,7 +87,7 @@
   #mission {
     grid-template-columns: 100%;
   }
-  .img-box-2{
+  .img-box-2 {
     display: none;
   }
   #core-values {
@@ -94,11 +97,15 @@
     height: 200px;
   }
   #img-gallery {
-    grid-template-columns: repeat(2, auto);
-    row-gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .gallery-item {
-    width: 45vw;
+    width: 55vw;
+    height: 300px;
+    filter: brightness(100%);
   }
   .item-info {
     top: 60%;
@@ -154,7 +161,9 @@
   .C-item {
     width: 100%;
   }
-
+  .gallery-item {
+    width: 75vw;
+  }
   #footer-logo {
     width: 70vw;
   }
