@@ -75,7 +75,7 @@
   }
   #head-bottom p {
     width: 90%;
-    font-size: .9em;
+    font-size: 0.9em;
     line-height: 20px;
   }
   #SECT-1 {
@@ -187,5 +187,10 @@
   }
   details {
     display: none;
+  }
+}
+@media screen and (max-width: 360px) {
+  #H-start {
+    transform: translate(5px);
   }
 }
