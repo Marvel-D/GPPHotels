@@ -53,7 +53,7 @@
   .R-hidden {
     transform: translate(90%, 255px);
     display: flex;
-    border-radius: 29px 0px;
+    border-radius: 30px 0px;
     flex-direction: column;
     background-color: rgba(255, 255, 255, 0.594);
     position: absolute;
