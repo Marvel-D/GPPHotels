@@ -24,6 +24,7 @@
     flex-direction: column;
     align-items: center;
     height: 500px;
+    margin-bottom: 50px;
   }
   header {
     padding: 0 5%;
@@ -84,8 +85,14 @@
   .img-box-1 {
     height: 200px;
   }
+  #services {
+    padding: 4em 0;
+  }
   #mission {
     grid-template-columns: 100%;
+  }
+  #mission-side{
+    height: 600px;
   }
   .img-box-2 {
     display: none;
@@ -116,6 +123,7 @@
   footer {
     flex-direction: column;
     justify-content: center;
+    padding: 50px;
   }
 
   #footer-logo {
@@ -158,6 +166,7 @@
   }
   #services {
     margin: 0px 0;
+    padding: 2.5em 0;
   }
   .C-item {
     width: 100%;
@@ -171,9 +180,10 @@
   footer {
     justify-content: center;
     align-items: center;
+    padding: 20px;
   }
   #footer-1 {
-    margin-bottom: 50px;
+    margin-bottom: 5px;
   }
   #footer-1 h3 {
     font-size: 1.2em;
