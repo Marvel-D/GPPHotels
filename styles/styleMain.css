@@ -101,7 +101,7 @@ header {
   padding: 10px 10px;
   border-bottom: 0.2px solid rgb(143, 143, 143);
 }
-.hoverMenu a:hover{
+.hoverMenu a:hover {
   background-color: rgb(83, 125, 66);
 }
 .H-end {
@@ -316,7 +316,7 @@ details p {
 .img-box-3 {
   height: 700px;
   width: 100%;
-  background-image: url(../images/3_holders/GPPH\ STAFF-S.jpg);
+  background-image: url(../images/3_holders/nn.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
